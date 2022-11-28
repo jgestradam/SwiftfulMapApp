@@ -10,8 +10,8 @@ import MapKit
 
 struct LocationsView: View {
     
-    //@StateObject private var vm = LocationViewModel()
-    @EnvironmentObject private var vm: LocationViewModel
+    //@StateObject private var vm = LocationsViewModel()
+    @EnvironmentObject private var vm: LocationsViewModel
     
     var body: some View {
         ZStack {
@@ -23,6 +23,19 @@ struct LocationsView: View {
                     .padding()
                 
                 Spacer()
+                
+                ZStack {
+                    ForEach(vm.locations) { location in
+                        if vm.mapLocation == location {
+                            LocationPreviewView(location: location)
+                                .shadow(color: Color.black.opacity(0.3), radius: 20)
+                                .padding()
+                                .transition(.asymmetric(
+                                    insertion: .move(edge: .trailing),
+                                    removal: .move(edge: .leading)))
+                        }
+                    }
+                }
             }
         }
     }
@@ -31,7 +44,7 @@ struct LocationsView: View {
 struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
         LocationsView()
-            .environmentObject(LocationViewModel())
+            .environmentObject(LocationsViewModel())
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  LocationViewModel.swift
+//  LocationsViewModel.swift
 //  SwiftfulMapApp
 //
 //  Created by Joseph Estrada on 11/26/22.
@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 import SwiftUI
 
-class LocationViewModel: ObservableObject {
+class LocationsViewModel: ObservableObject {
     
     // All loaded locations
     @Published var locations: [Location]
@@ -55,5 +55,31 @@ class LocationViewModel: ObservableObject {
             mapLocation = location
             showLocationsList = false 
         }
+    }
+    
+    func nextButtonPressed() {
+        // Get the current index
+//        let currentIndex = locations.firstIndex { location in
+//            return location == mapLocation
+//        }
+        
+        guard let currentIndex = locations.firstIndex(where: { $0 == mapLocation }) else {
+            print("Could nor find current index inlocation array! Should never happen.")
+            return
+        }
+        
+        // Check if the currentIndex is valid
+        let nextIndex = currentIndex + 1
+        guard locations.indices.contains(nextIndex) else {
+            // Next index is Not valid
+            // Restart from 0
+            guard let firstLocation = locations.first else { return }
+            showNextLocation(location: firstLocation)
+            return
+        }
+        
+        // Next index IS valid
+        let nextLocation = locations[nextIndex]
+        showNextLocation(location: nextLocation)
     }
 }
