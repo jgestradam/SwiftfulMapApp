@@ -10,6 +10,7 @@
 		5D772AB92935285000B45FC8 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D772AB82935285000B45FC8 /* LocationsListView.swift */; };
 		5D772ABB2935437300B45FC8 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D772ABA2935437300B45FC8 /* LocationPreviewView.swift */; };
 		5D772ABD2935667300B45FC8 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D772ABC2935667300B45FC8 /* LocationMapAnnotationView.swift */; };
+		5D772ABF29357AC800B45FC8 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D772ABE29357AC800B45FC8 /* LocationDetailView.swift */; };
 		5D9B911F2932A94600B7E257 /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B911E2932A94600B7E257 /* SwiftfulMapAppApp.swift */; };
 		5D9B91212932A94600B7E257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B91202932A94600B7E257 /* ContentView.swift */; };
 		5D9B91262932A94700B7E257 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B91252932A94700B7E257 /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		5D772AB82935285000B45FC8 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		5D772ABA2935437300B45FC8 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		5D772ABC2935667300B45FC8 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		5D772ABE29357AC800B45FC8 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		5D9B911B2932A94600B7E257 /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9B911E2932A94600B7E257 /* SwiftfulMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMapAppApp.swift; sourceTree = "<group>"; };
 		5D9B91202932A94600B7E257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				5D772AB82935285000B45FC8 /* LocationsListView.swift */,
 				5D772ABA2935437300B45FC8 /* LocationPreviewView.swift */,
 				5D772ABC2935667300B45FC8 /* LocationMapAnnotationView.swift */,
+				5D772ABE29357AC800B45FC8 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				5D9B91212932A94600B7E257 /* ContentView.swift in Sources */,
 				5DBB8D1B2933089E00BE2466 /* LocationsView.swift in Sources */,
 				5D9B91322932AC0A00B7E257 /* Location.swift in Sources */,
+				5D772ABF29357AC800B45FC8 /* LocationDetailView.swift in Sources */,
 				5D9B911F2932A94600B7E257 /* SwiftfulMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
