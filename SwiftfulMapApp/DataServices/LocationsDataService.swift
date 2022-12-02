@@ -12,59 +12,37 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "Colosseum",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
-            description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+            name: "Museo El Castillo",
+            cityName: "Medellín",
+            coordinates: CLLocationCoordinate2D(latitude: 6.1901037, longitude: -75.5694576),
+            description: "Castle-style house-museum in a panoramic setting with guided tours and temporary art exhibits.",
             imageNames: [
-                "rome-colosseum-1",
-                "rome-colosseum-2",
-                "rome-colosseum-3",
+                "museo-1",
+                "museo-2",
             ],
-            link: "https://en.wikipedia.org/wiki/Colosseum"),
+            link: "https://es.wikipedia.org/wiki/Museo_El_Castillo"),
         Location(
-            name: "Pantheon",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8986, longitude: 12.4769),
-            description: "The Pantheon is a former Roman temple and since the year 609 a Catholic church, in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus.",
+            name: "Mirador De Las Palmas",
+            cityName: "Medellín",
+            coordinates: CLLocationCoordinate2D(latitude: 6.1952264, longitude: -75.5476858),
+            description: "Watching the sunset in Medellín from the top of the palms, is a classic plan of the city; This viewpoint is located about 30 minutes from the city and from there you can see the entire Aburrá Valley and the imposing mountains that surround the so-called capital of the mountain; it's really beautiful, a bit cold compared to the spring weather in the city but a space to relax outside of the city.",
             imageNames: [
-                "rome-pantheon-1",
-                "rome-pantheon-2",
-                "rome-pantheon-3",
+                "mirador-las-palmas-1",
+                "mirador-las-palmas-2",
+                "mirador-las-palmas-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
+            link: "https://es.wikipedia.org/wiki/Alto_de_Las_Palmas"),
         Location(
-            name: "Trevi Fountain",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.9009, longitude: 12.4833),
-            description: "The Trevi Fountain is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini and several others. Standing 26.3 metres high and 49.15 metres wide, it is the largest Baroque fountain in the city and one of the most famous fountains in the world.",
+            name: "Jardín Botánico",
+            cityName: "Medellín",
+            coordinates: CLLocationCoordinate2D(latitude: 6.2704792, longitude: -75.5657533),
+            description: "Living museum and scientific research center. Environmental classroom for education, recreation and civic culture.",
             imageNames: [
-                "rome-trevifountain-1",
-                "rome-trevifountain-2",
-                "rome-trevifountain-3",
+                "jardin-botanico-medellin-1",
+                "jardin-botanico-medellin-2",
+                "jardin-botanico-medellin-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
-        Location(
-            name: "Eiffel Tower",
-            cityName: "Paris",
-            coordinates: CLLocationCoordinate2D(latitude: 48.8584, longitude: 2.2945),
-            description: "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Locally nicknamed 'La dame de fer', it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world.",
-            imageNames: [
-                "paris-eiffeltower-1",
-                "paris-eiffeltower-2",
-            ],
-            link: "https://en.wikipedia.org/wiki/Eiffel_Tower"),
-        Location(
-            name: "Louvre Museum",
-            cityName: "Paris",
-            coordinates: CLLocationCoordinate2D(latitude: 48.8606, longitude: 2.3376),
-            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
-            imageNames: [
-                "paris-louvre-1",
-                "paris-louvre-2",
-                "paris-louvre-3",
-            ],
-            link: "https://en.wikipedia.org/wiki/Louvre"),
+            link: "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_de_Medell%C3%ADn")
     ]
     
 }

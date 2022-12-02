@@ -27,7 +27,6 @@ struct Location: Identifiable, Equatable {
         lhs.id == rhs.id
     }
 }
-
 /*
  Location(
      name: "Colosseum",
