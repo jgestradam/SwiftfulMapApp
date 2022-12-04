@@ -27,6 +27,7 @@ struct LocationsListView: View {
     }
 }
 
+
 struct LocationsListView_Previews: PreviewProvider {
     static var previews: some View {
         LocationsListView()
@@ -50,6 +51,8 @@ extension LocationsListView {
                     .font(.headline)
                 Text(location.cityName)
                     .font(.subheadline)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.accentColor)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
